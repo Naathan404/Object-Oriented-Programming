@@ -1,0 +1,16 @@
+﻿  main.cpp
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Luyện tập\Luyen_tap_T\Practice\temporary.h(11,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Luyện tập\Luyen_tap_T\Practice\temporary.h(11,53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  temporary.cpp
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Luyện tập\Luyen_tap_T\Practice\Temporary.h(11,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'temporary.cpp')
+  
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Luyện tập\Luyen_tap_T\Practice\Temporary.h(11,53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'temporary.cpp')
+  
+  Generating Code...
+  Practice.vcxproj -> D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Luyện tập\Luyen_tap_T\x64\Debug\Practice.exe
