@@ -12,7 +12,7 @@ public:
 	// Cac ham thanh phan
 	void Xuat();
 	int TimSoAmLonNhat();
-	int DemSoLanXuatHien(int);
+	int DemSoLanXuatHienCuaGiaTri(int);
 	bool KiemTraMangGiamDan();
 	void SapXepTangDan();
 

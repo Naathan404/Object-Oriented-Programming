@@ -1,4 +1,3 @@
-﻿  cPhanSo.cpp
-  main.cpp
-  Generating Code...
+﻿  main.cpp
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Thực hành\BT_Buoi02_24521186_NguyenChiNguyen\Bai01\main.cpp(31,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Bai01.vcxproj -> D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Thực hành\BT_Buoi02_24521186_NguyenChiNguyen\x64\Debug\Bai01.exe

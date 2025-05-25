@@ -33,7 +33,7 @@ int cArray::TimSoAmLonNhat()
 	return maxNegative != INT32_MIN ? maxNegative : 1;
 }
 
-int cArray::DemSoLanXuatHien(int x)
+int cArray::DemSoLanXuatHienCuaGiaTri(int x)
 {
 	int count = 0;
 	for (int i = 0; i < size; ++i)

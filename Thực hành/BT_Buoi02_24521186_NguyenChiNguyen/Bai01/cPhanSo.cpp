@@ -8,12 +8,6 @@
 using namespace std;
 
  // Constructor
-cPhanSo::cPhanSo()
-{
-	iTuSo = 0;
-	iMauSo = 1;
-}
-
 cPhanSo::cPhanSo(int tu, int mau)
 {
 	iTuSo = tu;
@@ -55,11 +49,11 @@ void cPhanSo::Nhap()
 
 void cPhanSo::Xuat() const
 {
-	if (iTuSo % iMauSo == 0)
+	/*if (iTuSo % iMauSo == 0)
 	{
 		cout << iTuSo / iMauSo;
 		return;
-	}
+	}*/
 	if (iMauSo < 0)
 	{
 		cout << iTuSo * -1 << "/" << iMauSo * -1;
@@ -125,4 +119,9 @@ cPhanSo operator/(cPhanSo self, cPhanSo other)
 float cPhanSo::DinhGiaTri() const
 {
 	return (float)iTuSo / iMauSo;
+}
+
+void cPhanSo::operator=(int a)
+{
+	Set(a, 1);
 }

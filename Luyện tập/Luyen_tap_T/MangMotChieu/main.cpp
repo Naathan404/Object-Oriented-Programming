@@ -16,7 +16,7 @@ int main()
 	int x;
 	cout << "Nhap x: ";
 	cin >> x;
-	cout << arr1.DemSoLanXuatHien(x) << endl;
+	cout << arr1.DemSoLanXuatHienCuaGiaTri(x) << endl;
 	if (arr1.KiemTraMangGiamDan())
 		cout << "Mang giam!";
 	else

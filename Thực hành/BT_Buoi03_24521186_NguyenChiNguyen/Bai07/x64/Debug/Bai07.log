@@ -1,0 +1,9 @@
+﻿  cDate.cpp
+  cListNhanVienVP.cpp
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Thực hành\BT_Buoi03_24521186_NguyenChiNguyen\Bai07\cListNhanVienVP.cpp(45,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Thực hành\BT_Buoi03_24521186_NguyenChiNguyen\Bai07\cListNhanVienVP.cpp(50,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Thực hành\BT_Buoi03_24521186_NguyenChiNguyen\Bai07\cListNhanVienVP.cpp(144,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  cNhanVienVP.cpp
+  main.cpp
+  Generating Code...
+  Bai07.vcxproj -> D:\Documents\UIT_Software_Engineering\Năm_1\Kỳ_2\IT002_OOP\Thực hành\BT_Buoi03_24521186_NguyenChiNguyen\x64\Debug\Bai07.exe
