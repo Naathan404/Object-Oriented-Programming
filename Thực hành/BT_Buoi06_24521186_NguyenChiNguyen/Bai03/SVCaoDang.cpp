@@ -5,7 +5,7 @@
 
 #include "SVCaoDang.h"
 
-SVCaoDang::SVCaoDang(int ms, string ten, string dc, unsigned char sotc, float dtb, float dtn) : SinhVien(ms, ten, dc, sotc)
+SVCaoDang::SVCaoDang(int ms, string ten, string dc, int sotc, float dtb, float dtn) : SinhVien(ms, ten, dc, sotc, dtb)
 {
 	diemTN = dtn;
 	loai = CAO_DANG;
@@ -21,7 +21,7 @@ void SVCaoDang::Nhap()
 void SVCaoDang::Xuat() const
 {
 	SinhVien::Xuat();
-	cout << " | " << diemTN;
+	cout << " | Diem tot nghiep: " << diemTN;
 }
 
 bool SVCaoDang::XetTotNghiep() const

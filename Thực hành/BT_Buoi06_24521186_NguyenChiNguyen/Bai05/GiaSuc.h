@@ -7,7 +7,7 @@
 using namespace std;
 
 #pragma once
-class cGiaSuc
+class GiaSuc
 {
 protected:
 
@@ -20,9 +20,9 @@ public:
 	};
 	LOAI loai;
 
-	void Keu() const {};
-	int SinhCon() const { return 0; }
-	float ChoSua() const { return 0; }
-
+	GiaSuc() { loai = BO; }
+	virtual void Keu() const = 0;
+	virtual int SinhCon() const = 0;
+	virtual float ChoSua() const = 0;
 };
 

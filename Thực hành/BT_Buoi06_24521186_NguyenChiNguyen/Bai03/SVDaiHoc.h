@@ -13,11 +13,12 @@ private:
 	float diemLV;
 
 public:
-	SVDaiHoc(int = 0, string = "", string = "", unsigned char = 0, float = 0.0, string = "", float = 0.0);
+	SVDaiHoc(int = 0, string = "", string = "", int = 0, float = 0.0, string = "", float = 0.0);
 	string getTenLV() const { return tenLV; }
 	float getDiemLV() const { return diemLV; }
 	void setTenLV(string tenlv) { tenLV = tenlv; }
 	void setDiemLV(float dlv) { diemLV = dlv; }
+
 	void Nhap() override;
 	void Xuat() const override;
 	bool XetTotNghiep() const override;

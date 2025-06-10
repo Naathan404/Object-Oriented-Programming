@@ -11,7 +11,7 @@ private:
 	float diemTN;
 
 public:
-	SVCaoDang(int = 0, string = "", string = "", unsigned char = '0', float = 0, float = 0);
+	SVCaoDang(int = 0, string = "", string = "", int = '0', float = 0, float = 0);
 
 	float getDiemTN() const { return diemTN; };
 	void setDiemTN(float dtn) { diemTN = dtn; }

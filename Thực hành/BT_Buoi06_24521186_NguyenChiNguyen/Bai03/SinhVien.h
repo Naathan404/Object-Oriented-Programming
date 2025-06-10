@@ -14,11 +14,11 @@ protected:
 	int MSSV;
 	string hoTen;
 	string diaChi;
-	unsigned char tongTC;
+	int tongTC;
 	float diemTB;
 
 public:
-	SinhVien(int = 0, string = "", string = "", unsigned char = 0, float = 0.0);
+	SinhVien(int = 0, string = "", string = "", int = 0, float = 0.0);
 
 	enum LOAI
 	{
@@ -32,12 +32,12 @@ public:
 	int getMSSV() const { return MSSV; }
 	string getHoTen() const { return hoTen; }
 	string getDiaChi() const { return diaChi; }
-	unsigned char getTongTC() const { return tongTC; }
+	int getTongTC() const { return tongTC; }
 	float getDiemTB() const { return diemTB; }
 	void setMSSV(int mssv) { MSSV = mssv; }
 	void setHoTen(string hoten) { hoTen = hoten; }
 	void setDiaChi(string diachi) { diaChi = diachi; }
-	void setTongTC(unsigned char soTC) { tongTC = soTC; }
+	void setTongTC(int soTC) { tongTC = soTC; }
 	void setDiemTB(float dtb) { diemTB = dtb; }
 
 	virtual void Nhap();

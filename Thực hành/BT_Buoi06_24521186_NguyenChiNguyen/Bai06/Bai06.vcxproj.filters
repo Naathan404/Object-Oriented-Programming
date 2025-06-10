@@ -15,34 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SinhVien.h">
+    <ClInclude Include="KhachHang.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SVCaoDang.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SVDaiHoc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="QuanLySinhVien.h">
+    <ClInclude Include="QuanLyKhachHang.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SinhVien.cpp">
+    <ClCompile Include="KhachHang.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SVCaoDang.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SVDaiHoc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QuanLySinhVien.cpp">
+    <ClCompile Include="QuanLyKhachHang.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XYZ.INP">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="XYZ.OUT">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

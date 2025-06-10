@@ -5,7 +5,7 @@
 
 #include "SinhVien.h"
 
-SinhVien::SinhVien(int mssv, string ten, string dc, unsigned char soTC, float dtb)
+SinhVien::SinhVien(int mssv, string ten, string dc, int soTC, float dtb)
 {
 	MSSV = mssv;
 	hoTen = ten;
@@ -33,9 +33,9 @@ void SinhVien::Nhap()
 void SinhVien::Xuat() const
 {
 	cout << "MSSV: " << MSSV;
-	cout << "	|	Ho ten: " << hoTen;
-	cout << "	|	Dia chi: " << diaChi;
-	cout << "	|	Tong so tin chi: " << tongTC;
-	cout << "	|	Diem trung binh: " << diemTB;
+	cout << " | Ho ten: " << hoTen;
+	cout << " | Dia chi: " << diaChi;
+	cout << " | Tong so tin chi: " << tongTC;
+	cout << " | Diem trung binh: " << diemTB;
 
 }

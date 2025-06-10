@@ -15,30 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SinhVien.h">
+    <ClInclude Include="GiaSuc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SVCaoDang.h">
+    <ClInclude Include="Bo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SVDaiHoc.h">
+    <ClInclude Include="Cuu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QuanLySinhVien.h">
+    <ClInclude Include="De.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanLyNongTrai.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SinhVien.cpp">
+    <ClCompile Include="Bo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SVCaoDang.cpp">
+    <ClCompile Include="Cuu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SVDaiHoc.cpp">
+    <ClCompile Include="De.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QuanLySinhVien.cpp">
+    <ClCompile Include="QuanLyNongTrai.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
